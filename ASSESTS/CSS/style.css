@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+/* =========HEADER CSS STARTS========== */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../IMAGES/header.jpg)
+}
+.name>h1{
+    color: white;
+    position: relative;
+    left: 40px;
+    font-size: 42px;
+    font-weight:300;
+}
+/* =========HEADER CSS ENDS========== */
+/* =========NAVBAR CSS STARTS============ */
+.navbar{
+    display: flex;
+    gap: 20px;
+    background-color: #efe7e5;
+    padding: 8px;
+}
+.navbar>a{
+    text-decoration: none;
+    background-color: #2baee4;
+    color: white;
+    padding: 8px 22px;
+    transition: 1s;
+}
+.navbar>a:hover{
+    background-color: #f01d62;
+    color: white;
+}
+#default{
+    background-color: #f01d62;
+}
+/* =========NAVBAR CSS ENDS============ */
+/* ===========CONTENT CSS STARTS========= */
+.content>img{
+    width: 100%;
+}
+/* ===========CONTENT CSS STARTS========= */
+
+/*============= CONTENT-MAIN CSS STARTS========= */
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap:10rem;
+    max-width: 1000px;
+ }
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    justify-content: center;
+  
+}
+.card>h1{
+    color: #f01d62;
+    font-weight: normal;
+    
+}
+.card>p{
+    line-height: 32px;
+    /* text-align: justify; */
+}
+.updates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.news>h1{
+    color: #2baee4;
+    font-weight: normal;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*============= CONTENT-MAIN CSS ENDS========= */
+/* ===============FOOTER STARTS========== */
+.footer{
+    background-color: #58504e;
+    color: white;
+    align-items: center;
+    padding: 15px
+}
+/* ================FOOTER ENDS=========*/
+.about{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.about1>h1{
+    color: #f01d62;
+    font-weight: normal;
+}
+.about1>p{
+    line-height: 35px;
+    text-align: justify;
+    /* background-color: aqua */
+    width: 98%;
+    margin-right:auto;
+}
+.vision{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+ .vision1>h1{
+    color: #2baee4;
+    font-weight: normal;
+}
+.vision2>p{
+    line-height: 28px;
+    width: 98%;
+    margin-right: auto;
+    }
+    /* ============SERVICES.HTML STARTS========== */
+    /* =======SERVICES CSS STARTS=======  */
+    .services{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+  .courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+     justify-content: center; 
+    
+}
+.ourservices>h1{
+    color: #f01d62;
+    font-weight: normal;
+}
+.webdesign{
+    width: 620px;
+    background-color: #efe7e5;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    height: 260px;
+}
+.webdesign>h1{
+    font-weight: normal;
+    color: #2baee4;
+}
+.webdesign>p{
+    line-height: 32px;
+    text-align: justify;
+}
+.webdesign>button{
+    background-color: #f01d62;
+    color: white;
+    width: 20%;
+    border: none;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 440px;
+    }
+/* =======SERVICES CSS ENDS=======  */
+/* ============SERVICES.HTML ENDS========== */
+/* ==========PORTFOLIO.HTML STARTS======= */
+/* ==========PORTFOLIO CSS=========STARTS */
+.portfolio{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.portfolioname>h1{
+    color: #f01d62;
+    font-weight: normal;
+}
+.cardd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.cardd1{
+  width: 390px;
+  overflow: hidden;
+}
+.cardd1>img{
+    width: 100%;
+    transition: 2s;
+}
+.cardd1>img:hover{
+  transform: scale(1.5);
+}
+/* ==========PORTFOLIO CSS=========ENDS */
+/* ==========PORTFOLIO.HTML ENDS======= */
+/* =========CONTACT.HTML STARTS========= */
+/* =========CONTACT CSS STARTS========= */
+.contact{
+    padding: 20px;
+}
+.contact1>h1{
+    color: #f01d62;
+    font-weight: normal;
+}
+
+td{
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    
+}
+input,textarea{
+    width: 500px;
+    padding: 12px;
+    background-color: #ebe0e0b0;
+    border: none;
+}
+.td1{
+    vertical-align: top;
+}
+#message{
+    background-color: #2baee4;
+    color: white;
+    width: 520px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* =========CONTACT CSS ENDS========= */
+/* =========CONTACT.HTML ENDS========= */
